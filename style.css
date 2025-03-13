@@ -201,7 +201,7 @@ nav ul li:hover{
     padding-left: 10%;
 }
 
-.corps3 {
+#corps3 {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -211,31 +211,31 @@ nav ul li:hover{
     gap: 20px;
 }
 
-.corps3 .product img {
+#corps3 .product img {
     width: 100%;
     height: auto;
 }
 
-.corps3 .product h2 {
+#corps3 .product h2 {
     margin: 10px 0;
     font-size: 1.2rem;
     text-align: left;
 }
 
-.corps3 .product p {
+#corps3 .product p {
     margin: 10px 0;
     font-style: italic;
     font-size: small;
     text-align: center;
 }
 
-.corps3 .product .p .price{
+#corps3 .product .p .price{
 
     text-align: center;
     font-size: medium;
 }
 
-.corps3 .product {
+#corps3 .product {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -248,7 +248,7 @@ nav ul li:hover{
     box-sizing: border-box;
 }
 
-.corps3 .product button {
+#corps3 .product button {
     background-color: #00a000;
     color: white;
     border: none;
@@ -266,7 +266,7 @@ nav ul li:hover{
 }
 
 
-.corps3 .butonav {
+#corps3 .butonav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,17 +274,17 @@ nav ul li:hover{
     padding: 10px;
 }
 
-.corps3 .butonav ul {
+#corps3 .butonav ul {
     display: flex;
     list-style: none;
     padding: 10;
     margin: 0;
 }
-.corps3 .butonav ul li {
+#corps3 .butonav ul li {
     display: flex;
 }
 
-.corps3 .butonav ul li a {
+#corps3 .butonav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -300,12 +300,12 @@ nav ul li:hover{
    
 }
 
-.corps3 .butonav ul li a:hover {
+#corps3 .butonav ul li a:hover {
     background-color: #44d5aa;
     color: white;
 }
 
-.corps3 .butonav ul li a.active {
+#corps3 .butonav ul li a.active {
     background-color: #7cd4b6;
     color: black;
     border-color: #555;
@@ -408,7 +408,7 @@ nav ul li:hover{
 
 
 @media (max-width: 1150px) {
-    .corps3 .product {
+    #corps3 .product {
         width: 45%;
         flex-direction: column;
         align-self: center;
@@ -439,17 +439,17 @@ nav ul li:hover{
 
     }
 
-    .corps3 {
+    #corps3 {
         width: 100%;
         gap: 15px;
     }
-    .corps3 .product p {
+    #corps3 .product p {
         font-size: 0.9rem;
         text-align: center;
         
     }
 
-    .corps3 .product h2 {
+    #corps3 .product h2 {
         font-size: 0.9rem;
         text-align: center;
         
@@ -515,20 +515,20 @@ nav ul li:hover{
         gap: 2px;
     }
 
-    .corps3 .product {
+    #corps3 .product {
         width: 100%;
         flex-direction: column;
     }
-    .corps3 .product h2 {
+    #corps3 .product h2 {
         font-size: 1rem;
     }
-    .corps3 .product p {
+    #corps3 .product p {
         font-size: 0.8rem;
     }
-    .corps3 .product button {
+    #corps3 .product button {
         width: auto;
     }
-    .corps3 {
+    #corps3 {
         gap: 10px;
     }
     .piedpage {
