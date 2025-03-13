@@ -12,12 +12,15 @@ data.forEach((element)=> {
 });
 
 
-const myImage = document.querySelector('img');
-fetch("https://via.placeholder.com/150")
-.then(function(response) {
-return response.blob();
-})
-.then(function(myBlob) {
-const objectURL = URL.createObjectURL(myBlob);
-myImage.src = objectURL;
-});
+fetch("https://iut.nathanael-spriet.fr/data.json")
+.then((reponse) => reponse.json())
+.then((json) => {json.forEach((ele)=> {
+    const messageTemplateElement = document.querySelector('#template');
+    let newElement = messageTemplateElement.cloneNode(true).content;
+    newElement.querySelector('#image').src = "medias/images/" + ele.picture;
+    newElement.querySelector('#name').textContent = ele.name;
+    newElement.querySelector('#description').textContent = ele.description;
+    newElement.querySelector('#price').textContent = ele.price;
+    newElement.querySelector('#bouton').textContent = ele.bouton;
+    corps3.appendChild(newElement);
+})});
