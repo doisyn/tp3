@@ -4,6 +4,7 @@ let data = [
 		description: '1,5m CAT 6',
 		price: 12.65,
 		picture: 'products/ethernet.jpg',
+
 	},
 	{
 		name: 'Convertisseur USB RJ45',
@@ -16,27 +17,27 @@ let data = [
 		description: 'USB-C to Ethernet',
 		price: 25.48,
 		picture: 'products/convertUSBC.jpg',
-		bouton: 'ajouter un pro',
+
 	},
 	{
 		name: 'Hub USB-C + Ethernet',
 		description: 'USB-C vers 3xUSB3 + RJ45',
 		price: 32.25,
 		picture: 'products/hubUSBC.jpg',
-		bouton: 'ajouter un pro',
+
 	},
 	{
 		name: 'Carte PCI-e Ethernet Gigabit',
 		description: 'Carte PCI Express RJ45 Gigabit',
 		price: 29.99,
 		picture: 'products/pcie-rj45.jpg',
-		bouton: 'ajouter un pro',
+
 	},
 	{
 		name: 'Cable RJ45 1m',
 		description: 'Cpable mâle-mâle CAT7 - 1m',
 		price: 7.52,
 		picture: 'products/ethCAT7.jpg',
-		bouton: 'ajouter un pro',
+
 	},
 ];
